@@ -1,5 +1,10 @@
 # OCI Deep Agents
 
+![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-blue)
+![Black](https://img.shields.io/badge/code%20style-black-000000)
+![Pylint](https://img.shields.io/badge/linting-pylint-yellowgreen)
+![Codex Ready](https://img.shields.io/badge/Codex-Ready-00bcd4)
+
 This repository contains practical examples that support a series of Medium articles about **LangGraph Deep Agents**.
 
 The goal is to provide small, focused, and reproducible code samples that help explain key concepts used in real agentic workflows.
