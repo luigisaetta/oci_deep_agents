@@ -20,7 +20,7 @@ conda activate oci_deep_agents
 
 ```bash
 pip install --upgrade pip
-pip install langchain-openai python-dotenv
+pip install langchain langchain-openai deepagents python-dotenv
 ```
 
 ## 3. Configure environment variables
