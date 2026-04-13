@@ -5,7 +5,7 @@
 ![Pylint](https://img.shields.io/badge/linting-pylint-yellowgreen)
 ![Codex Ready](https://img.shields.io/badge/Codex-Ready-00bcd4)
 
-This repository contains practical examples that support a series of Medium articles about **LangGraph Deep Agents**.
+This repository contains practical examples that support a series of Medium articles about **LangGraph Deep Agents**, including how to build and run **LangGraph Deep Agents on OCI Enterprise AI**.
 
 The goal is to provide small, focused, and reproducible code samples that help explain key concepts used in real agentic workflows.
 
@@ -14,6 +14,12 @@ The goal is to provide small, focused, and reproducible code samples that help e
 - Step-by-step examples aligned with the Medium articles
 - Minimal experiments to understand Deep Agent patterns in LangGraph
 - Reference code you can run, adapt, and extend
+
+## Agents
+
+| Agent | Description |
+| --- | --- |
+| `agents.deep_agents01` | First Deep Agent example on OCI Enterprise AI, with formatted output for response text and token usage. |
 
 ## Project Scope
 
