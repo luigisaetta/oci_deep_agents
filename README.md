@@ -18,3 +18,7 @@ This repo is intentionally example-driven: each script or folder is meant to acc
 
 - Content will grow over time as new articles are published
 - Examples prioritize clarity and learning over production hardening
+
+## Configuration
+
+See the setup instructions in [README_SETUP.md](README_SETUP.md).
