@@ -7,7 +7,7 @@ import os
 from dotenv import load_dotenv
 from deepagents import create_deep_agent
 from langchain_openai import ChatOpenAI
-from utility import extract_response_text, extract_token_usage, print_result
+from .utility import extract_response_text, extract_token_usage, print_result
 
 load_dotenv()
 
