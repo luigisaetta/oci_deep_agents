@@ -4,15 +4,16 @@ This guide explains how to configure and run the examples in this repository.
 
 ## Prerequisites
 
-- Python 3.10+ installed
+- Python 3.11+ installed
+- Conda installed (Anaconda or Miniconda)
 - Access to OCI Generative AI OpenAI-compatible endpoint
 - A valid OCI API key and project ID
 
-## 1. Create and activate a virtual environment
+## 1. Create and activate a Conda environment
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
+conda create -n oci_deep_agents python=3.11 -y
+conda activate oci_deep_agents
 ```
 
 ## 2. Install Python libraries
