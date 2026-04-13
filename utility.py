@@ -1,34 +1,5 @@
 """Utility functions for Deep Agents examples."""
 
-import os
-
-from dotenv import load_dotenv
-from langchain_openai import ChatOpenAI
-
-
-def build_llm_from_env() -> ChatOpenAI:
-    """Build a ChatOpenAI client using environment configuration."""
-    load_dotenv()
-
-    oci_api_key = os.getenv("OCI_API_KEY")
-    oci_base_url = os.getenv("OCI_BASE_URL")
-    model_id = os.getenv("OCI_MODEL_NAME")
-    project_id = os.getenv("OCI_PROJECT_ID")
-
-    default_headers = {"OpenAI-Project": project_id}
-
-    return ChatOpenAI(
-        model=model_id,
-        openai_api_base=oci_base_url,
-        openai_api_key=oci_api_key,
-        temperature=0.0,
-        # important: force responses API (not completions)
-        use_responses_api=True,
-        output_version="responses/v1",
-        # add project id to the request
-        default_headers=default_headers,
-    )
-
 
 def extract_text_from_content(content: object) -> str:
     """Extract displayable text from model content payload."""
