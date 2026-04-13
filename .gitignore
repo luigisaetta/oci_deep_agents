@@ -1,3 +1,5 @@
 # secrets
 .env
 .vscode/
+__pycache__/test01.cpython-311.pyc
+agents/__pycache__/
